@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css">
+    <title>Document</title>
+    <style>
+        
+ 
+    body {
+      margin: 0;
+      padding: 0;
+      background-image: url("https://www.sathyabama.ac.in/sites/default/files/inline-images/WhatsApp%20Image%202023-02-06%20at%2010.23.07%20AM%20%281%29.jpeg");
+      background-size: cover;
+      background-position: center;
+      background-repeat: no-repeat;
+      min-height: 100vh;
+    }
+
+    .overlay {
+      background-color: rgba(0, 0, 0, 0.6); /* semi-transparent black */
+      color: white;
+      padding: 30px;
+      border-radius: 12px;
+      margin: 100px auto;
+      max-width: 1000px;
+      text-align: center;
+      box-shadow: 0 0 15px rgba(0, 0, 0, 0.4);
+    }
+
+    .overlay h1 {
+      font-weight: bold;
+      font-size: 3rem;
+      text-shadow: 2px 2px 5px rgba(0,0,0,0.7);
+    }
+
+    .overlay p {
+      font-size: 1.1rem;
+      line-height: 1.7;
+      text-shadow: 1px 1px 3px rgba(0,0,0,0.5);
+    }
+  </style>
+</head>
+<body>
+  {% include 'navbar.html' %}
+
+  <div class="overlay">
+    <h1>College Event Calendar</h1>
+    <p>
+      The College Event Calendar System is a digital platform designed to streamline event management across the campus.
+      It helps students, faculty, and staff stay informed about upcoming events, workshops, and academic schedules.
+      The system provides a centralized platform to view, add, edit, and manage event details in one place.
+      Users can easily track important dates and plan their participation in advance.
+      It supports real-time updates and notifications to ensure no event is missed.
+      It enhances communication and transparency within the college community.
+      The system encourages active student involvement and better time management.
+      Overall, it ensures smooth coordination and boosts campus-wide engagement.
+    </p>
+  </div>
+</body>
+</html>
+
+    
